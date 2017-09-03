@@ -2,6 +2,15 @@
   "name": "generator-ng-aws",
   "version": "0.1.0",
   "description": "Yeoman generator that creates Angular 4 projects bootstrapped with AWS SDK and Twitter Bootstrap",
+  "author": "Milos Bejda <milos.bejda@outlook.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mbejda/generator-ng-aws.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mbejda/generator-ng-aws/issues"
+  },
+  "license": "MIT",
   "files": [
     "app/"
   ],
