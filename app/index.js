@@ -7,7 +7,7 @@ module.exports = class extends Generator {
 
 
         /// save the module context
-        this.moduleRoot = require('app-root-dir').get();
+        this.moduleRoot = __dirname;
 
 
     }
@@ -50,7 +50,7 @@ module.exports = class extends Generator {
 
         var done = that.async();
 
-        let ngbin = `${__dirname}/../node_modules/.bin`;
+        let ngbin = `${that.moduleRoot}/../node_modules/.bin`;
 
         let command = `${ngbin}/ng`;
 
@@ -98,7 +98,7 @@ module.exports = class extends Generator {
         this.log('Replacing files....');
 
 
-        let templateDir = `${this.moduleRoot}/app/templates`;
+        let templateDir = `${this.moduleRoot}/../app/templates`;
 
         this.fs.copy(
             `${templateDir}/app.module.ts`,
