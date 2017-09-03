@@ -1,0 +1,27 @@
+{
+  "name": "generator-ng-aws",
+  "version": "0.1.0",
+  "description": "Yeoman generator that creates Angular 4 projects bootstrapped with AWS SDK and Twitter Bootstrap",
+  "files": [
+    "app/"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "aws",
+    "generator angular",
+    "angular gen",
+    "aws gen",
+    "yo gen",
+    "aws sdk",
+    "angular",
+    "angular4",
+    "ng aws",
+    "angular aws"
+  ],
+  "dependencies": {
+    "@angular/cli": "1.3.2",
+    "app-root-dir": "1.0.2",
+    "yeoman-generator": "1.1.1"
+  }
+}
+
